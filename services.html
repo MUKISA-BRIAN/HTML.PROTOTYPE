@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - TEC Center</title>
+</head>
+<body>
+
+    <header>
+        <h1>TEC Center</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Our Courses</a></li>
+                <li><a href="apply.html" aria-current="page">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Student Application Form</h2>
+            <p>Take the first step toward your tech career. Please fill out the enrollment application details below, and an admissions officer will contact you.</p>
+
+            <!-- Admissions Application Form -->
+            <form action="#" method="POST">
+                <div>
+                    <label for="student-name">Full Name:</label>
+                    <input type="text" id="student-name" name="student_name" required placeholder="Jane Doe">
+                </div>
+                <br>
+                <div>
+                    <label for="student-email">Email Address:</label>
+                    <input type="email" id="student-email" name="student_email" required placeholder="jane.doe@example.com">
+                </div>
+                <br>
+                <div>
+                    <label for="course-select">Select Preferred Program:</label>
+                    <select id="course-select" name="preferred_course">
+                        <option value="web-dev">Full-Stack Web Development</option>
+                        <option value="cybersecurity">Cybersecurity Fundamentals</option>
+                        <option value="data-science">Python for Data Science</option>
+                        <option value="cloud">Cloud Computing</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="student-experience">Briefly describe your background or programming experience:</label>
+                    <textarea id="student-experience" name="background" rows="5" required placeholder="Tell us about any previous exposure to tech or why you want to join..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Submit Application</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TEC Center. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
 
